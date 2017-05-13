@@ -1,25 +1,38 @@
-html {
+body {
   font-family: Verdana, sans-serif;
   background-color: black;
+  text-align: center;
 }
 
 h1 {
   font-size: 50px;
   color: white;
-  text-align: center;
   font-weight: normal;
 }
 
 .download {
-  text-align: center;
   font-size: 16px
 }
 
-a {
-    color: #7fffd4;
-}
 a,a:link,a:visited
 {
  color:#7fffd4;
- text-decoration: underline; 
+ text-decoration: underline;
+}
+
+.guide {
+  color: white;
+  font-size: 42px;
+  font-weight: 300;
+}
+
+.around {
+  color: grey;
+  font-size: 21px;
+}
+
+.right {
+  text-align: right;
+  color: grey;
+  font-size: : 21px;
 }
